@@ -14,12 +14,12 @@ h1, h2, h3, h4, h5, h6 {
 body {
   animation: bg_blur 2s ease-in-out 0;
   -webkit-animation: bg_blur 2s ease-in-out;
-  background: radial-gradient(circle, rgba(0, 0, 0, 0.603) 0%, rgba(17, 17, 17, 0.568) 99%), url(/img/bg2.jpg);
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.623) 0%, rgba(17, 17, 17, 0.568) 100%), url(/img/bg.jpg);
   background-size: cover;
 }
 body .coming-soon {
   color: #FFD600;
-  text-transform: uppercase;
+  text-transform: toptextcase;
   font-family: "Kanit", sans-serif;
   font-weight: 700;
   font-style: italic;
@@ -34,12 +34,12 @@ body .coming-soon {
   -webkit-animation-duration: 1.2s;
           animation-duration: 1.2s;
 }
-body .coming-soon .upper {
+body .coming-soon .toptext {
   margin-top: 20px;
   font-size: 2rem;
   color: #fff;
 }
-body .coming-soon .lower {
+body .coming-soon .lowertext {
   font-size: 5rem;
 }
 body .coming-soon p {
@@ -58,7 +58,7 @@ a {
   line-height: 40px;
   font-size: 18px;
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: toptextcase;
   font-weight: 600;
   color: black;
   background-color: #FFD600;
@@ -190,10 +190,10 @@ a:hover {
             } 
     */
   }
-  body .coming-soon .upper {
+  body .coming-soon .toptext {
     font-size: 1.2rem;
   }
-  body .coming-soon .lower {
+  body .coming-soon .lowertext {
     font-size: 3rem;
     text-align: center;
   }

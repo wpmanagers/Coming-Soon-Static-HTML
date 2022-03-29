@@ -20,13 +20,13 @@ body {
   -webkit-animation: bg_blur 2s ease-in-out;
   background: radial-gradient(
     circle,
-    rgba(0, 0, 0, 0.603) 0%,
-    rgba(17, 17, 17, 0.568) 99%),
-    url(/img/bg2.jpg);
+    rgba(0, 0, 0, 0.623) 0%,
+    rgba(17, 17, 17, 0.568) 100%),
+    url(/img/bg.jpg);
   background-size: cover;
   .coming-soon {
     color: $brandColor;
-    text-transform: uppercase;
+    text-transform: toptextcase;
     font-family: $font;
     font-weight: 700;
     font-style: italic;
@@ -38,12 +38,12 @@ body {
     height: 100vh;
     animation-name: fadedown;
     animation-duration: 1.2s;
-      .upper {
+      .toptext {
         margin-top: 20px;
         font-size: 2rem;
         color: #fff;
       }
-      .lower {
+      .lowertext {
         font-size: 5rem;
       }
       p {
@@ -65,7 +65,7 @@ a{
     line-height: 40px;
     font-size: 18px;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: toptextcase;
     font-weight: 600;
     color: rgb(0, 0, 0);
     background-color: $brandColor;
@@ -165,10 +165,10 @@ a{
           display: none;
         } 
 */
-        .upper {
+        .toptext {
           font-size: 1.2rem;
         }
-        .lower {
+        .lowertext {
           font-size: 3rem;
           text-align: center;
         }
